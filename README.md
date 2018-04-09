@@ -14,4 +14,4 @@ Supportive User Interface for a 'Real Time Role Playing Card Game'.
 
 ## Made By:
 Caspar Boetes, Nayhane Gomes, Anissa Miloudi, Erle Monfils & Oscar van Zijverden.
-Class 14.
+The Codaisseur Academy Class 14.
