@@ -9,7 +9,7 @@ import DeleteIcon from 'material-ui/svg-icons/action/delete'
 import ByeIcon from 'material-ui/svg-icons/content/clear'
 import MayorGrey from '../../images/mayor-grey.svg'
 import MayorBlue from '../../images/mayor-blue.svg'
-import MayorColor from '../../images/mayor-medal.png'
+// import MayorColor from '../../images/mayor-medal.png'
 
 import './PlayerMenuButton.css'
 

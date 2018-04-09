@@ -9,7 +9,6 @@ import mp3_howl from '../../sounds/wolf6.mp3'
 import Dialog from 'material-ui/Dialog'
 import FlatButton from 'material-ui/FlatButton'
 import IconButton from 'material-ui/IconButton'
-import FloatingActionButton  from 'material-ui/FloatingActionButton'
 import RestoreIcon from 'material-ui/svg-icons/action/restore'
 import Star from 'material-ui/svg-icons/action/grade'
 import './Timer.css'
@@ -38,7 +37,7 @@ class Timer extends PureComponent {
     this.state = {
       paused: true,
       color: '#1F243D',
-      seconds: 300,
+      seconds: 900,
       open: false,
       playing: false,
       playing2: false,
@@ -52,7 +51,7 @@ class Timer extends PureComponent {
   }
 
   onTick(seconds) {
-    if(seconds < 100) {
+    if(seconds < 300) {
       this.setState ({
         color: "#D32F2F",
         playing: true,
@@ -63,7 +62,7 @@ class Timer extends PureComponent {
   resetTimer() {
     this.setState ({
       paused: true,
-      seconds: 300 + Math.random()*0.000000000001,
+      seconds: 900 + Math.random()*0.000000000001,
       color: '#1F243D',
       playing: false,
     })
@@ -117,14 +116,14 @@ class Timer extends PureComponent {
       </div>
 
       <div className='resetButton'>
-        <IconButton tooltip="Reset Timer" mini={true}>
+        <IconButton tooltip="Reset Timer">
           <RestoreIcon onClick={this.resetTimer.bind(this)}/>
         </IconButton>
       </div>
 
       <div className='nightButton'>
-        <IconButton tooltip="Start Night" mini={true}>
-          <Star primary={true} onClick={this.handleOpen.bind(this)}/>
+        <IconButton tooltip="Start Night">
+          <Star onClick={this.handleOpen.bind(this)}/>
         </IconButton>
       </div>
 
