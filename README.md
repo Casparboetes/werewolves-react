@@ -5,6 +5,11 @@ Supportive User Interface for a 'Real Time Role Playing Card Game'.
 
 - Go to https://heen-en-weerwolven.herokuapp.com/ see end result
 
+
+## Made By:
+Caspar Boetes, Nayhane Gomes, Anissa Miloudi, Erle Monfils & Oscar van Zijverden.
+The Codaisseur Academy Class 14.
+
 ### Images
 
 > UI.
@@ -20,6 +25,10 @@ yarn install
 yarn start
 ```
 
-## Made By:
-Caspar Boetes, Nayhane Gomes, Anissa Miloudi, Erle Monfils & Oscar van Zijverden.
-The Codaisseur Academy Class 14.
+## Related documentation
+For more information about using React-Redux, ExpressJS and Mongoose, see these links:
+
+* [React](https://facebook.github.io/react-native/)
+* [Redux](https://redux.js.org/)
+* [ExpressJS](https://expressjs.com/)
+* [Mongoose](http://mongoosejs.com/)
