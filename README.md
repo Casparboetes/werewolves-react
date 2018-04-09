@@ -1,12 +1,16 @@
 
-Werewolves project - Class 14 Codaisseur
+# Final Group Project: Heen en Weerwolven
 
-Made by:
-Nayhane Gomes,
-Anissa Miloudi,
-Erle Monfils,
-Oscar van Zijverden,
-Caspar Boetes
+Supportive User Interface for a 'Real Time Role Playing Card Game'.
+
+- Go to https://heen-en-weerwolven.herokuapp.com/ see end result
+
+### Images
+
+> UI.
+![wolven1](https://user-images.githubusercontent.com/34174855/38492598-bf9c9bca-3bef-11e8-831b-3061139e99f7.png)
 
 
-<img width="1440" alt="screen shot 2018-03-08 at 17 01 33" src="https://user-images.githubusercontent.com/33893690/37522273-b7a8fb86-2923-11e8-9def-da0e4473607f.png">
+## Made By:
+Caspar Boetes, Nayhane Gomes, Anissa Miloudi, Erle Monfils & Oscar van Zijverden.
+Class 14.
